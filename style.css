@@ -1,0 +1,23 @@
+.cell {
+    flex-grow: 1;
+}
+
+.cell-blank:hover {
+    background-color: #ccc;
+}
+
+.cell-filled {
+    background-color: #000;
+}
+
+.row {
+    display: flex;
+    flex-grow: 1;
+}
+
+#container {
+    width: 960px;
+    height: 960px;
+    display: flex;
+    flex-direction: column;
+}
